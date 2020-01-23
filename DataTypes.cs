@@ -61,6 +61,10 @@ namespace core_playground
                 Console.WriteLine($"{c} + {d} does NOT equal 0.3");
             }
 
+            Console.WriteLine($"{default(int)}"); // 0
+            Console.WriteLine($"{default(bool)}"); // False
+            Console.WriteLine($"{default(DateTime)}"); // 1/01/0001 00:00:00
+
             /*
             The decimal type is accurate because it stores the number as a 
             large integer and shifts the decimal point. For example, 0.1 is stored as 1, 
@@ -68,6 +72,10 @@ namespace core_playground
             place to the left. 12.75 is stored as 1275, with a note to 
             shift the decimal point two places to the left.
             */
+
+            /*You can use the var keyword to declare local variables. The compiler will infer the type from the literal value you assign after the assignment (=) operator.
+
+A literal number without a decimal point is inferred as an int variable unless you add the L suffix, in which case, it infers a long variable. A literal number with a decimal point is inferred as double unless you add the M suffix, in which case, it infers a decimal variable, or the F suffix, in which case, it infers a float variable. Double quotes indicate a string variable, single quotes indicate a char variable, and the true and false values infer a bool type.*/
         }
     }
 }
