@@ -7,34 +7,8 @@ namespace core_playground
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+           // ReadAssemblies.Entry();
+            DataTypes.Entry();
         }
-    }
-
-
-    public class A {
-        public A()
-        {
-            Console.WriteLine("A constructor");
-        }
-
-        static A(){
-            Console.WriteLine("Static A()");
-        }
-
-        public void Method(){
-            Console.WriteLine("In A method");
-        }
-    }
-
-    public class B:A {
-
-        public B()
-        {
-            Console.WriteLine("Contractor B");
-        }
-
-        static B(){
-            Console.WriteLine("B static");
-        }
-    }
+    } 
 }
