@@ -40,3 +40,5 @@ testem.log
 Thumbs.db
 .npmrc
 .angulardoc.json
+/obj
+/bin
