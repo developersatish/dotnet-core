@@ -7,8 +7,11 @@ namespace core_playground
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-           // ReadAssemblies.Entry();
-            DataTypes.Entry();
+            // ReadAssemblies.Entry();
+            //DataTypes.Entry();
+           // ConsoleApp.Entry(args);
+
+           Exercise02.Entry();
         }
-    } 
+    }
 }
